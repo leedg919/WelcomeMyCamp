@@ -1,0 +1,55 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+@font-face {
+    font-family: 'Galmuri9';
+    src: url('../Galmuri9.ttf') format('truetype');
+}
+
+.header{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(13, 7, 38);
+    /* border-bottom: 3px solid white;
+    box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+    
+    font-family: 'Galmuri9';
+    font-size: 2em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.homeBtn{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.navbar{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.introBtn{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.infoBtn{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.testBtn{
+    margin: 0 20px;
+    cursor: pointer;
+}
